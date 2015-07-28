@@ -1,0 +1,162 @@
+/* MEDIA QUERIES 
+-----------------*/
+
+@media (max-width: 940px) {
+	.column {
+    	width: 100%;
+    	display: block;
+	}
+
+	.panel h3 {
+		font-size: 150%;
+		padding: 2% 0 0 0;
+	}
+}
+
+/*----------------------------------*/
+
+@media (max-width: 767px) {
+	.panel {
+		width: 100%;
+		padding: 5% 5% 5% 5%;
+	}
+
+	.panel h3 {
+		font-size: 200%;
+		padding: 2% 0 0 0;
+	}
+
+	.gist .content-wrapper {
+    width: 90%;
+	}
+
+	.gist-container {
+    width: 100%;   
+	}
+
+	.contact h2 {
+    margin: 0 10% 20px 10%;
+	}
+
+	.contact .panel-intro{
+	padding: 15px 15%;
+	}
+}
+
+/*----------------------------------*/
+
+@media (max-width: 645px) {
+	.landing {
+  	padding-top: 150px;
+	} 
+
+	header nav {
+    float: none;
+	}
+
+	.social a, .contact .social a:visited {
+    padding: 10px;
+    margin: 0 10px;
+	}
+
+	.social a:last-child {
+    padding: 10px 12px;
+	}
+
+	.third {
+    width: 100%;
+    margin: 0 auto;
+	}
+
+	.third img {
+    width: 50%;
+    padding: 5px;
+    float: left;
+	}
+
+}
+
+/*----------------------------------*/
+
+@media (max-width: 480px) {
+	nav .fa-bars {
+    display: inline-block;
+    padding: 10px 15px;
+	}
+
+	nav ul.dropdown {
+	display: none;
+	text-align: left;
+	overflow: hidden;
+	}
+	nav ul.dropdown li {
+		display: block;
+	}
+	nav ul.dropdown a {
+		font-size: 150%; 
+	}
+	nav ul.dropdown.open {
+		display: block;
+	}
+
+	.intro {
+		font-size: 15px;
+	}
+
+	.about  h2 {
+    margin: 0 20% 0 0;
+	}
+
+	.columnL p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5px 5%;
+	}
+}
+
+/*----------------------------------*/
+
+@media (max-width: 325px) {
+	.about {
+    padding: 50px 0;
+	}
+
+	#headshot {
+	  position:relative;
+	  margin: 0 auto;
+	  display: block;
+	  width: 100%;
+	}
+
+	#headshot img {
+	  position:absolute;
+	  left: 25px;
+	  width: 80%
+	}
+
+	#headshot img.top:hover {
+	  opacity:0;
+	}
+
+	.third img {
+    width: 100%;
+    padding: 5px;
+	}
+
+	.social a, .contact .social a:visited {
+    padding: 10px;
+    margin: 0 5px;
+    display: block;
+	}
+
+	.social a:last-child {
+    padding: 10px 12px;
+	}
+
+	.spreadtext a {
+    background-color: #fff;
+    padding: 1px;
+	}
+	
+}
